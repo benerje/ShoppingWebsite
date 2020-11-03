@@ -35,11 +35,16 @@ class App extends Component{
         this.setState({showHeartBeatSection: updatedState})
     }
 }
-
+// shouldComponentUpdate(nextProps,nextState){
+//     if(nextState.currentPreviewImagepos === this.state.currentPreviewImagepos){
+//         return false;
+//     }
+//     return true;
+// }
 
     render(){
         
-        
+        console.log("render method called")
         return (
             <div className="App">
                
