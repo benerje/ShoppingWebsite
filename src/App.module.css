@@ -1,0 +1,35 @@
+.Topbar{
+    background-color:rgba(0, 0, 0, 0.89) ;
+    padding: 24px 48px 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.Topbar>img{
+    width: 100px;
+}
+
+.Maincontainer {
+    padding: 4% 12%;
+    margin-top: 32px;
+    display: flex;
+    align-items:center;
+    width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.ProductData{
+    width: 100%;
+}
+.ProductPreview{
+    width: 100%;
+    position: relative;
+}
+
+.ProductPreview > img{
+    width: 100%;
+}

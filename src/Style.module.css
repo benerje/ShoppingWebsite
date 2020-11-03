@@ -1,0 +1,18 @@
+.BlogCard{
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px crimson;
+    text-align: center;
+    background-color:whitesmoke
+  }
+.Likecount{
+    font-size: 24px;
+}
+  @media(min-width: 992px) {
+      .BlogCard {
+          width: 45%;
+          display: inline-block
+      }
+  }
